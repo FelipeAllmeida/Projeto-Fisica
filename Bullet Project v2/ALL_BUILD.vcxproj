@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{B9D1C577-6DB1-413E-9A3C-DA6AA5487827}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Felipe\Downloads\bullet-2.82-r2704\Glut;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Felipe\Downloads\bullet-2.82-r2704\Glut;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Felipe\Downloads\bullet-2.82-r2704\Glut;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Felipe\Downloads\bullet-2.82-r2704\Glut;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Felipe\Downloads\bullet-2.82-r2704\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Felipe/Downloads/bullet-2.82-r2704/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Felipe/Downloads/bullet-2.82-r2704 "-BC:/Users/Felipe/Downloads/Bullet Project v2" --check-stamp-file "C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Felipe/Downloads/bullet-2.82-r2704/CMakeLists.txt;C:\Users\Felipe\Downloads\bullet-2.82-r2704\CMakeLists.txt;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeCCompiler.cmake;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindGLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Felipe\Downloads\bullet-2.82-r2704\BulletConfig.cmake.in;C:\Users\Felipe\Downloads\bullet-2.82-r2704\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Felipe/Downloads/bullet-2.82-r2704/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Felipe/Downloads/bullet-2.82-r2704 "-BC:/Users/Felipe/Downloads/Bullet Project v2" --check-stamp-file "C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Felipe/Downloads/bullet-2.82-r2704/CMakeLists.txt;C:\Users\Felipe\Downloads\bullet-2.82-r2704\CMakeLists.txt;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeCCompiler.cmake;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindGLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Felipe\Downloads\bullet-2.82-r2704\BulletConfig.cmake.in;C:\Users\Felipe\Downloads\bullet-2.82-r2704\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Felipe/Downloads/bullet-2.82-r2704/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Felipe/Downloads/bullet-2.82-r2704 "-BC:/Users/Felipe/Downloads/Bullet Project v2" --check-stamp-file "C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Felipe/Downloads/bullet-2.82-r2704/CMakeLists.txt;C:\Users\Felipe\Downloads\bullet-2.82-r2704\CMakeLists.txt;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeCCompiler.cmake;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindGLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Felipe\Downloads\bullet-2.82-r2704\BulletConfig.cmake.in;C:\Users\Felipe\Downloads\bullet-2.82-r2704\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Felipe/Downloads/bullet-2.82-r2704/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Felipe/Downloads/bullet-2.82-r2704 "-BC:/Users/Felipe/Downloads/Bullet Project v2" --check-stamp-file "C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Felipe/Downloads/bullet-2.82-r2704/CMakeLists.txt;C:\Users\Felipe\Downloads\bullet-2.82-r2704\CMakeLists.txt;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeCCompiler.cmake;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\3.3.0-rc2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindGLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Felipe\Downloads\bullet-2.82-r2704\BulletConfig.cmake.in;C:\Users\Felipe\Downloads\bullet-2.82-r2704\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Felipe\Downloads\Bullet Project v2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/AllBulletDemos/AppAllBulletDemos.vcxproj">
+      <Project>D4B28F19-2CA1-4F24-8640-D3A8682D5F30</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/BasicDemo/AppBasicDemo.vcxproj">
+      <Project>4C0C0585-B837-4F74-9C9F-AB42B64734A2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/Benchmarks/AppBenchmarks.vcxproj">
+      <Project>B320E440-6F01-4310-8298-A7F51DA16112</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/Box2dDemo/AppBox2dDemo.vcxproj">
+      <Project>2442FE25-5764-4F8E-8301-AD596D54C4C5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/BspDemo/AppBspPhysicsDemo.vcxproj">
+      <Project>7A38435D-E638-48D4-88C5-3875CAABFB8F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/BulletXmlImportDemo/AppBulletXmlImportDemo.vcxproj">
+      <Project>95E7F3E8-9FDC-47CD-83C1-978A1AF715B4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/CcdPhysicsDemo/AppCcdPhysicsDemo.vcxproj">
+      <Project>4632694D-754D-4B61-8641-BEB501B1D869</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/CharacterDemo/AppCharacterDemo.vcxproj">
+      <Project>7A7827E0-E12A-4B65-8B17-F0CA950CDD4F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/CollisionDemo/AppCollisionDemo.vcxproj">
+      <Project>07C2F603-B062-4D91-AE04-71C82104E64B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/CollisionInterfaceDemo/AppCollisionInterfaceDemo.vcxproj">
+      <Project>442C50EA-F7CB-4A15-B4C7-ECBFEF65C831</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/ConcaveConvexcastDemo/AppConcaveConvexCastDemo.vcxproj">
+      <Project>86F4D0E5-27F6-4840-961A-1E1558FAD30F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/ConcaveDemo/AppConcaveDemo.vcxproj">
+      <Project>3A939501-44E0-46FA-B25D-3576A178BFF1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/ConcaveRaycastDemo/AppConcaveRayCastDemo.vcxproj">
+      <Project>9C797A67-1578-44B1-8FFA-9112D2625DB9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/ConstraintDemo/AppConstraintDemo.vcxproj">
+      <Project>687A0A2E-3E13-400D-BEE3-E1D911F82836</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/ContinuousConvexCollision/AppContinuousConvexCollisionDemo.vcxproj">
+      <Project>2D8F6E99-4E33-4248-8884-E3E7BB698AE2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/ConvexDecompositionDemo/AppConvexDecompositionDemo.vcxproj">
+      <Project>5E657353-777C-41DC-82E5-98A2286FA968</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/ConvexHullDistance/AppConvexHullDistanceDemo.vcxproj">
+      <Project>ADB0D9C3-C4DA-4F57-8D68-B18FD62CCAA2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/DoublePrecisionDemo/AppDoublePrecisionDemo.vcxproj">
+      <Project>837018DE-8047-4953-91DC-F6E329C12DCB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/FeatherstoneMultiBodyDemo/AppFeatherstoneMultiBodyDemo.vcxproj">
+      <Project>EBD62C1C-314E-4D99-A868-726B8C6E22B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/ForkLiftDemo/AppForkLiftDemo.vcxproj">
+      <Project>D953B49A-BDC3-45B7-9D2F-9EC64037BC99</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/FractureDemo/AppFractureDemo.vcxproj">
+      <Project>CD60AA66-3AEE-4BE3-8A83-F65ED081634E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/GenericJointDemo/AppGenericJointDemo.vcxproj">
+      <Project>92D67050-6A8A-408B-86F4-BBFB32B9DFD0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/GyroscopicDemo/AppGyroscopicDemo.vcxproj">
+      <Project>2F2E8B34-70C5-4AB1-92B9-5E0EF4F4EF4C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/HelloWorld/AppHelloWorld.vcxproj">
+      <Project>4A59D987-3FE3-409C-9E84-152293EA4AE4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/InternalEdgeDemo/AppInternalEdgeDemo.vcxproj">
+      <Project>FD75C491-6F15-4B93-86FD-E0B5E909150A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/GjkConvexCastDemo/AppLinearConvexCastDemo.vcxproj">
+      <Project>DEC2FF0F-9882-4753-ACDA-997240FF6359</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/DynamicControlDemo/AppMotorDemo.vcxproj">
+      <Project>D8DAAA37-17B8-4C7B-93CA-3C04DBEBB494</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/MovingConcaveDemo/AppMovingConcaveDemo.vcxproj">
+      <Project>4F5F2B9F-A22E-4B91-80D0-354FBC7325FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/MultiMaterialDemo/AppMultiMaterialDemo.vcxproj">
+      <Project>7B402642-46B2-4020-B19C-E9A440CF241A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/MultiThreadedDemo/AppMultiThreadedDemo.vcxproj">
+      <Project>8521A529-D57E-4081-A45F-6A7A0FA7C190</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/OpenCLClothDemo/MiniCL/AppOpenCLClothDemo_Mini.vcxproj">
+      <Project>4840B2E0-9C7A-4B08-A32C-E7ED672F5027</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/RagdollDemo/AppRagdollDemo.vcxproj">
+      <Project>409CFBCA-4236-4560-88F0-B26A44F82E46</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/RaytestDemo/AppRaytestDemo.vcxproj">
+      <Project>E4ACCF42-90DA-43A2-8DEF-5835A18B1E80</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/Raytracer/AppRaytracer.vcxproj">
+      <Project>10BB8DC4-B3D5-4E2A-A83E-5CCF9A2E4FCA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/RollingFrictionDemo/AppRollingFrictionDemo.vcxproj">
+      <Project>CA2D57A3-4B07-4A61-BD5B-0C5D49958C13</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/SerializeDemo/AppSerializeDemo.vcxproj">
+      <Project>94BAD0ED-84B6-46D5-B5B3-257E53B29C69</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/SimplexDemo/AppSimplexDemo.vcxproj">
+      <Project>1CF9B32B-2F57-4676-8D48-B45E5979E22B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/SliderConstraintDemo/AppSliderConstraintDemo.vcxproj">
+      <Project>145C3233-DE22-44CC-A6F4-2B322EB3C6EC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/SoftDemo/AppSoftBodyDemo.vcxproj">
+      <Project>C0DAAD70-2E3E-4BE9-A324-BE34DB62687F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/ThreadingDemo/AppThreadingDemo.vcxproj">
+      <Project>F009B1BA-E006-4025-AD0A-ED796047CE71</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/UserCollisionAlgorithm/AppUserCollisionAlgorithm.vcxproj">
+      <Project>541BD22F-D878-4F84-8D2C-0B1369A8493E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/VectorAdd_OpenCL/MiniCL/AppVectorAdd_Mini.vcxproj">
+      <Project>46C6FC57-88EA-480D-8F94-9C4A9CFA6277</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/VehicleDemo/AppVehicleDemo.vcxproj">
+      <Project>25C1520C-EB66-49D7-AC9B-7C842294AD21</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/VoronoiFractureDemo/AppVoronoiFractureDemo.vcxproj">
+      <Project>C8C779CC-BF2F-474C-A8BE-CE0941AD5020</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/src/BulletCollision/BulletCollision.vcxproj">
+      <Project>401250EF-C102-4D1B-8683-9E69C78491C7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/src/BulletDynamics/BulletDynamics.vcxproj">
+      <Project>C904086B-C7D0-46D4-A9EF-29FC502F3456</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Extras/Serialize/BulletFileLoader/BulletFileLoader.vcxproj">
+      <Project>FD7E4553-4806-406C-94E9-2DEFB62CC521</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/src/BulletMultiThreaded/BulletMultiThreaded.vcxproj">
+      <Project>226FA699-CFA1-4D15-9109-4EF791F7C9D8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/src/BulletSoftBody/BulletSoftBody.vcxproj">
+      <Project>C395F55B-BA77-4924-BEE9-D09DD82B5061</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/BulletSoftBodySolvers_OpenCL_Mini.vcxproj">
+      <Project>91437A84-D4E2-4524-889B-8778BAEC7527</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Extras/Serialize/BulletWorldImporter/BulletWorldImporter.vcxproj">
+      <Project>070C1C2A-3F26-4D6E-9FEC-1E840FBF5B73</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Extras/Serialize/BulletXmlWorldImporter/BulletXmlWorldImporter.vcxproj">
+      <Project>D7733FBF-B1AB-42F9-B54E-E1114B1A2652</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Extras/ConvexDecomposition/ConvexDecomposition.vcxproj">
+      <Project>59AB3966-C84D-406E-8DBF-F5A24A5A997C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Extras/GIMPACTUtils/GIMPACTUtils.vcxproj">
+      <Project>83624933-D896-4210-9F3B-4EA3B91CCB12</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Extras/glui/GLUI.vcxproj">
+      <Project>66C75B45-3C68-4601-8AEC-1C26D0672484</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Extras/HACD/HACD.vcxproj">
+      <Project>150E653D-E9A9-4A1D-9629-99F6FCE31A38</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/src/LinearMath/LinearMath.vcxproj">
+      <Project>C551A57B-288D-4814-91E5-933630AD1162</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/src/MiniCL/MiniCL.vcxproj">
+      <Project>39FD114A-2A30-4260-8FD9-D3A75304134B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/Demos/OpenGL/OpenGLSupport.vcxproj">
+      <Project>CA6F85A0-E92B-4DB8-B1B5-4C9CB95F16D2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Felipe/Downloads/Bullet Project v2/ZERO_CHECK.vcxproj">
+      <Project>2875E08B-44E0-4300-BA8F-5B05AD929D4E</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

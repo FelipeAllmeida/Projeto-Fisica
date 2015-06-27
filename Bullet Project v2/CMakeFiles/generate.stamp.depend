@@ -1,0 +1,35 @@
+# CMake generation dependency list for this directory.
+C:/Users/Felipe/Downloads/bullet-2.82-r2704/CMakeLists.txt
+C:/Users/Felipe/Downloads/Bullet Project v2/CMakeFiles/3.3.0-rc2/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/Felipe/Downloads/Bullet Project v2/CMakeFiles/3.3.0-rc2/CMakeCCompiler.cmake
+C:/Users/Felipe/Downloads/Bullet Project v2/CMakeFiles/3.3.0-rc2/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+C:/Users/Felipe/Downloads/Bullet Project v2/CMakeFiles/3.3.0-rc2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindOpenGL.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindGLU.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindOpenGL.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindGLUT.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+C:/Users/Felipe/Downloads/bullet-2.82-r2704/BulletConfig.cmake.in
